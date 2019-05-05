@@ -4,7 +4,7 @@ import unittest
 class GetURL(unittest.TestCase):
 
     def set_up(self):
-        self.driver = webdriver.Chrome(executable_path='C:/automation/drivers/chromedriver')
+        self.driver = webdriver.Firefox(executable_path='C:\\Users\\User\\Documents\\geckodriver.exe')
         self.driver.maximize_window()
         self.driver.implicitly_wait(20)
 
