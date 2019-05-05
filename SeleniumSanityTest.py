@@ -13,7 +13,7 @@ class GetURL(unittest.TestCase):
         driver=self.driver
         driver.get("http://192.168.99.100:5000/")
         html_source = driver.page_source
-        if "Hello Alex" in html_source:
+        if "Hello Eli" in html_source:
             print("Test passed Succesfuly")
         else:
             print("Doesnt find this text")
