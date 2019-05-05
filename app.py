@@ -23,7 +23,7 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return 'Hello Alex {} times.\n'.format(count)
+    return 'Hello Eli {} times.\n'.format(count)
 	
 
 if __name__ == "__main__":
